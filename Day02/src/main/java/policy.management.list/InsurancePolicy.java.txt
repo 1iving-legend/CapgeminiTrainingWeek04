@@ -1,0 +1,56 @@
+import java.util.Date;
+import java.text.SimpleDateFormat;
+
+public class InsurancePolicy implements Comparable<InsurancePolicy> {
+    private String policyNumber;
+    private String policyholderName;
+    private Date expiryDate;
+    private String coverageType;
+    private double premiumAmount;
+    private static final SimpleDateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy");
+
+    public InsurancePolicy(String policyNumber, String policyholderName, String expiryDate, String coverageType, double premiumAmount) throws Exception {
+        this.policyNumber = policyNumber;
+        this.policyholderName = policyholderName;
+        this.expiryDate = dateFormat.parse(expiryDate);
+        this.coverageType = coverageType;
+        this.premiumAmount = premiumAmount;
+    }
+
+    public String getPolicyNumber() {
+        return policyNumber;
+    }
+
+    public Date getExpiryDate() {
+        return expiryDate;
+    }
+
+    public String getCoverageType() {
+        return coverageType;
+    }
+
+    @Override
+    public String toString() {
+        return "PolicyNumber: " + policyNumber + ", Policyholder: " + policyholderName + 
+               ", ExpiryDate: " + dateFormat.format(expiryDate) + 
+               ", CoverageType: " + coverageType + ", PremiumAmount: " + premiumAmount;
+    }
+
+    @Override
+    public int compareTo(InsurancePolicy other) {
+        return this.expiryDate.compareTo(other.expiryDate);
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (obj == null || getClass() != obj.getClass()) return false;
+        InsurancePolicy policy = (InsurancePolicy) obj;
+        return policyNumber.equals(policy.policyNumber);
+    }
+
+    @Override
+    public int hashCode() {
+        return policyNumber.hashCode();
+    }
+}

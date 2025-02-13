@@ -1,0 +1,27 @@
+public class Main {
+    public static void main(String[] args) throws Exception {
+        PolicyManagementSystem system = new PolicyManagementSystem();
+
+        // Adding sample policies
+        system.addPolicy(new InsurancePolicy("P001", "John Doe", "15-03-2025", "Health", 5000));
+        system.addPolicy(new InsurancePolicy("P002", "Jane Doe", "10-04-2025", "Auto", 3000));
+        system.addPolicy(new InsurancePolicy("P003", "Mark Smith", "01-03-2025", "Home", 8000));
+        system.addPolicy(new InsurancePolicy("P004", "Lucy Gray", "28-02-2025", "Health", 7000));
+        system.addPolicy(new InsurancePolicy("P001", "John Doe", "15-03-2025", "Health", 5000));  // Duplicate
+
+        // Display all policies
+        system.displayAllPolicies();
+
+        // Display policies expiring within the next 30 days
+        system.displayPoliciesExpiringSoon();
+
+        // Display policies by coverage type
+        system.displayPoliciesByCoverageType("Health");
+
+        // Find duplicate policies
+        system.findDuplicatePolicies();
+
+        // Performance comparison
+        system.comparePerformance();
+    }
+}
