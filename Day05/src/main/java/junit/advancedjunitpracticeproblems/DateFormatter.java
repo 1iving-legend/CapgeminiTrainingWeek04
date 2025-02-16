@@ -1,4 +1,4 @@
-package com.junit.advancedjunitpracticeproblems;
+package junit.advancedjunitpracticeproblems;
 
 
 import java.time.LocalDate;

@@ -1,4 +1,4 @@
-package com.junit.advancedjunitpracticeproblems;
+package junit.advancedjunitpracticeproblems;
 
 public class BankAccount {
     private double balance;
