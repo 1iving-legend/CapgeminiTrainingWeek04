@@ -1,4 +1,4 @@
-package com.regex.replaceandmodifystrings;
+package regex.replaceandmodifystrings;
 
 import java.util.ArrayList;
 import java.util.List;
