@@ -1,4 +1,4 @@
-package com.regex.extractionproblems;
+package regex.extractionproblems;
 
 import java.util.Arrays;
 import java.util.regex.Matcher;
