@@ -2,7 +2,7 @@ package junittesting;
 
 
 
-import com.junit.advancedjunitpracticeproblems.TemperatureConverter;
+import junit.advancedjunitpracticeproblems.TemperatureConverter;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 

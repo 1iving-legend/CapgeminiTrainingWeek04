@@ -1,6 +1,6 @@
 package junittesting;
 
-import com.junit.basicjunittest.PerformanceTimeout;
+import junit.basicjunittest.PerformanceTimeout;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Timeout;
 import static org.junit.jupiter.api.Assertions.*;

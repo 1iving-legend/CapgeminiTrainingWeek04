@@ -1,6 +1,6 @@
 package junittesting;
 
-import com.junit.basicjunittest.FileProcessor;
+import junit.basicjunittest.FileProcessor;
 import org.junit.jupiter.api.*;
 import java.io.IOException;
 import java.nio.file.*;

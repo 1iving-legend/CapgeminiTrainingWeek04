@@ -1,7 +1,7 @@
 package junittesting;
 
 import static org.junit.jupiter.api.Assertions.*;
-import com.junit.basicjunittest.ExceptionHandling;
+import junit.basicjunittest.ExceptionHandling;
 import org.junit.jupiter.api.Test;
 
 public class ExceptionHandlingTest {

@@ -1,6 +1,6 @@
 package junittesting;
 
-import com.junit.advancedjunitpracticeproblems.DateFormatter;
+import junit.advancedjunitpracticeproblems.DateFormatter;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 

@@ -2,7 +2,7 @@ package junittesting;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-import com.junit.basicjunittest.StringUtils;
+import junit.basicjunittest.StringUtils;
 import org.junit.jupiter.api.Test;
 
 class StringUtilityTest {

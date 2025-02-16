@@ -3,7 +3,7 @@ package junittesting;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-import com.junit.basicjunittest.Calculator;
+import junit.basicjunittest.Calculator;
 import org.junit.jupiter.api.Test;
 
 public class CalculatorTest {

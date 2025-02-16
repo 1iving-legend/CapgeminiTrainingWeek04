@@ -3,7 +3,7 @@ package junittesting;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-import com.junit.basicjunittest.DatabaseConnection;
+import junit.basicjunittest.DatabaseConnection;
 import org.junit.jupiter.api.*;
 
 class DatabaseConnectionTest {

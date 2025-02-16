@@ -1,7 +1,7 @@
 package junittesting;
 
 
-import com.junit.advancedjunitpracticeproblems.PasswordValidator;
+import junit.advancedjunitpracticeproblems.PasswordValidator;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
