@@ -1,4 +1,4 @@
-package com.junit.basicjunittest;
+package junit.basicjunittest;
 
 import java.util.ArrayList;
 import java.util.List;

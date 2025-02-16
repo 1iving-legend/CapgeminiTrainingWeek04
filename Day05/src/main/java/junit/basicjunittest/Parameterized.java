@@ -1,4 +1,4 @@
-package com.junit.basicjunittest;
+package junit.basicjunittest;
 
 public class Parameterized {
     public static boolean isEven(int number) {

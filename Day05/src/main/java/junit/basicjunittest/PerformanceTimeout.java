@@ -1,4 +1,4 @@
-package com.junit.basicjunittest;
+package junit.basicjunittest;
 
 public class PerformanceTimeout {
     public static String longRunningTask() throws InterruptedException {
